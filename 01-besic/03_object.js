@@ -79,3 +79,11 @@ console.log(instructor);
     {},
     {}
 ]
+
+//dstructring  in react 
+
+// const navber = (/* this is call dstrucring {company}*/) =>{
+
+// }
+// console.log(company= "tusar")
+
