@@ -68,6 +68,8 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+// jeson api
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
