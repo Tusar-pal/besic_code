@@ -41,7 +41,10 @@ const two1  = (num1,num2) =>{
 console.log(two1(4,5));
 
 // immediated function in array funaction -------->
-
+// 2 IIFE
+((name)=>{
+    console.log(`too love you ${name}`)
+})("akash");
 ((user)=>{
     console.log(`love you ${user}`)
 })("tusar");
