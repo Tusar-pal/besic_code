@@ -1,2 +1,2 @@
-# besic_code
+java script code
 javascript_besic
