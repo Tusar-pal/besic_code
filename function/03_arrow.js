@@ -28,3 +28,8 @@ const one = (num1,num2)=>{
     }
 }
 console.log(one(1,3));
+
+// onèline 
+// mostli use in react
+const add = (num1,num2) => num1+num2 ;
+    console.log(add(1,2));
