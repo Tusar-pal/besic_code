@@ -29,7 +29,13 @@ const one = (num1,num2)=>{
 }
 console.log(one(1,3));
 
-// onèline 
+// it is called implisite return------------------>
 // mostli use in react
 const add = (num1,num2) => num1+num2 ;
-    console.log(add(1,2));
+   // console.log(add(1,2));
+
+// explisite return ---------------->
+const two1  = (num1,num2) =>{
+    return num1+num2 ;
+}
+console.log(two1(4,5))
