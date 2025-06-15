@@ -38,4 +38,10 @@ const add = (num1,num2) => num1+num2 ;
 const two1  = (num1,num2) =>{
     return num1+num2 ;
 }
-console.log(two1(4,5))
+console.log(two1(4,5));
+
+// immediated function in array funaction -------->
+
+((user)=>{
+    console.log(`love you ${user}`)
+})("tusar");
