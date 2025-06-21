@@ -81,8 +81,27 @@ for(let i=10 ; i>=1;i--){
 // 1- 20 ka table
 
 for(let i=1 ; i<=20 ; i++){
-    console.log("table",i)
+    //console.log("table",i)
     for(let j=1 ;j<=10;j++){
-        console.log(`${i} * ${j} = ${i*j}`);
+       // console.log(`${i} * ${j} = ${i*j}`);
     }
+}
+
+//--------------->
+//break , continue,is a jump statement
+//break----------->
+for(let i =1 ; i<=10 ;i++){
+    if(i==5){
+        break;
+    }
+    console.log(i)
+}
+
+
+//continue----------------->
+for(let i =1 ; i<=10 ;i++){
+    if(i==5){
+        continue;
+    }
+    console.log(i)
 }
