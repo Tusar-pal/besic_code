@@ -1,6 +1,13 @@
 const a = 10;
 for(let i=1 ; i<=a ; i++){
-   // console.log(i);
+if(i%2==0){
+    //console.log(i);
+// }else{
+   //console.log(i);
+// }
+
+  // console.log(i);
+}
 }
 const array  = [4,3,6,8,1]
 for (let index = 0; index < array.length; index++) {
@@ -59,8 +66,23 @@ for (const i of arr) {
 
 let i =1;
 do {
-        console.log(i);
+        //console.log(i);
             i++;
             } while (i<=10);
 
-            
+//--------------------->
+//Reverse loop
+
+for(let i=10 ; i>=1;i--){
+   // console.log(i);
+}
+
+
+// 1- 20 ka table
+
+for(let i=1 ; i<=20 ; i++){
+    console.log("table",i)
+    for(let j=1 ;j<=10;j++){
+        console.log(`${i} * ${j} = ${i*j}`);
+    }
+}
