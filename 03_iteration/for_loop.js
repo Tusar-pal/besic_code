@@ -25,7 +25,7 @@ array.forEach(element => {
 // ------------------------------------->
 //for_in loop
 
-const obj ={
+let obj ={
     name :"tusar pal",
     gmail :"tusarpal@gmail.com",
     ph:976543234,
@@ -47,11 +47,24 @@ for (const i in obj) {
 //--------------------------------->
 
 //for_of loop
-const arr =[1,6,4,2,9]
-const str ="tusar pal";
-for (const i of arr) {
-   // console.log(i)
+let obj1 ={
+    name :"tusar pal",
+    gmail :"tusarpal@gmail.com",
+    ph:976543234,
+    address :{
+        vill :"changual",
+        dist :"paschim medinipur",
+        state :"west bangal",
+        pin : 721301
+    }
 }
+// const arr =[1,6,4,2,9]
+// const str ="tusar pal";
+for (const [key,value] of obj1) { //obj1 is not iterable in the for of loop
+   console.log(key,value)
+}
+
+
 //-------------------------->
 //while
 
@@ -94,7 +107,7 @@ for(let i =1 ; i<=10 ;i++){
     if(i==5){
         break;
     }
-    console.log(i)
+   // console.log(i)
 }
 
 
@@ -103,5 +116,5 @@ for(let i =1 ; i<=10 ;i++){
     if(i==5){
         continue;
     }
-    console.log(i)
+   // console.log(i)
 }
