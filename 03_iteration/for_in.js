@@ -58,5 +58,5 @@ const myCoding = [
 }
 ]
 myCoding.forEach ( (item , index)=>{
-    console.log(item.fileName,item)
+    console.log(item.fileName,item.name)
 })
