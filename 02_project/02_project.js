@@ -7,6 +7,7 @@ form.addEventListener('submit', function (e) {
   e.preventDefault();
 
   const height = parseInt(document.querySelector('#height').value);
+  // parseInt =  convert a string into an integer 
   const weight = parseInt(document.querySelector('#weight').value);
   const results = document.querySelector('#results');
 
