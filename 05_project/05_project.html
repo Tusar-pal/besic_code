@@ -1,45 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1 id="heading">This is a JS </h1>
-    <button id="start" style="border-radius:  10px;">START</button>
-    <button id="stop" style="border-radius:  10px;">STOP</button>
-</body>
-<script>
-
-const start = document.querySelector("#start")
-const stop = document.querySelector("#stop")
-let intervalId ;
-const start1 = ()=>{
-    console.log("tusar",Date.now())
-}
-
-// start.addEventListener('click',function(){
-//     let set = setInterval(start1 , 2000);
-// })
-
-// stop.addEventListener('click',function(){
-   
-//     clearInterval( set);
-//     set = null;
-// })
-
-start.addEventListener('click', function () {
-      // To prevent multiple intervals
-      if (!intervalId) {
-        intervalId = setInterval(start1, 2000);
-      }
-    });
-
-    stop.addEventListener('click', function () {
-      clearInterval(intervalId);
-      //intervalId = null; // Reset the interval ID
-    });
-
-</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="05_project.css" />
+  </head>
+  <body style="background-color: #1d2523; color: #fff">
+    <h1 style="color: #FF4F0F;">Start should change the Background color every second</h1>
+    <button id="start"style="background-color : green ; border-radius : 10px">Start</button>
+    <button id="stop" style="background-color : rgb(230, 8, 8) ; border-radius : 10px" >Stop</button>
+    <script src="05_project.js"></script>
+  </body>
 </html>
