@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">This is a JS </h1>
+    <button id="start" style="border-radius:  10px;">START</button>
+    <button id="stop" style="border-radius:  10px;">STOP</button>
+</body>
+<script>
+
+    // setTimeOut
+  const head =  document.getElementById('heading')
+  document.querySelector('body').style.backgroundColor = "blue";
+  const newhead = function(){
+        //head.innerHTML = "tusar";
+        head.style.color = "red";
+        document.querySelector("body").style.backgroundColor = "#414141";
+        }
+   const change =  setTimeout(newhead,3000);
+ 
+
+   
+
+   /*
+//start  button
+   
+  const head =  document.getElementById('heading')
+  const start = document.getElementById("start");
+
+
+  document.querySelector('body').style.backgroundColor = "blue";
+
+
+  const fun = function(){
+        head.innerHTML = "JS IS THE BEST LANGUAGE";
+        head.style.color = "red";
+        document.querySelector("body").style.backgroundColor = "#414141";
+  };
+
+  start.addEventListener('click',function(){
+  let change = setTimeout(fun,3000);
+
+
+  },false);
+  
+        
+         
+
+   // clearTimeOut
+
+   const stoped = document.getElementById('stop');   
+   stoped.addEventListener('click',function(){
+    clearTimeout(change);
+   },false)
+
+   */
+
+   // clearTimeOut
+
+   const stoped = document.getElementById('stop');   
+   stoped.addEventListener('click',function(){
+    clearTimeout(change);
+   },false)
+
+   // setInterval 
+
+</script>
+</html>
